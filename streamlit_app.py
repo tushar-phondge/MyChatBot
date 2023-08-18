@@ -1,5 +1,7 @@
 import streamlit as st
+from hugchat import hugchat
+from hugchat.login import Login
 
-st.title('🎈 Let's Chat')
+st.set_page_config(page_title="🤗💬 LetsChat")
 
 st.write('Hello world!')
